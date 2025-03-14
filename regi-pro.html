@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>Sustainability - Blog Page</title>
+<!-- 
+Hydro Template 
+http://www.templatemo.com/tm-509-hydro
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="bootstrap.min.css">
+     <link rel="stylesheet" href="magnific-popup.css">
+     <link rel="stylesheet" href="font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="templatemo-style.css">
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+               <span class="spinner-rotate"></span>
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Registration Process</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="index.html#home" class="smoothScroll">Home</a></li>
+                         <li><a href="index.html#about" class="smoothScroll">About</a></li>
+                         <li><a href="index.html#blog" class="smoothScroll">Clubs</a></li>
+                         <li><a href="index.html#work" class="smoothScroll">Our Events</a></li>
+                         <li><a href="index.html#contact" class="smoothScroll">Contacts</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                         <li class="section-btn"><a href="logout.php" >Log out</a></li>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
+
+
+     <!-- BLOG HEADER -->
+     <section id="blog-header" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-5 col-sm-12">
+                         <h2>what are required to register?</h2>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- BLOG DETAIL -->
+     <section id="blog-detail" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                         <!-- BLOG THUMB -->
+                         <div class="blog-detail-thumb">
+                              <div class="blog-image">
+                                   <img src="data:image/png;base64,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" class="img-responsive" style="height:500px;width:700px;display:block;margin-left: auto;margin-right: auto;" alt="Blog Image">
+                              </div>
+                              <h2>Join Us...Without any hesitation</h2>
+                              <p>The purpose of student organizations at the Sreenidhi Institute of science $ Technology (SNIST) is to provide opportunities for the enhancement of academic, professional, and service aspects of student life through participation in group programs and activities. Every Sreenidhi student has the opportunity to become involved in campus organizations.   </p>
+
+                              <blockquote>" JOIN AYIPO MACHA....We are waiting..."</blockquote>
+
+                              <p>A student organization is defined as a group of five (5) or more currently enrolled SNIST students, faculty, staff and/or individuals from the community whose primary purpose is to support the goals and mission of the College.  Only students may serve as officers or have a controlling interest in the organization.  All organizations must have a designated faculty or staff member of the college to serve as advisor.  These organizations must adhere to expectations of the entire SNIST community, contribute positively to the campus and abide by all State laws and College policies. Student organization categories recognized by SNIST include Academic/Professional, Institutional, and Service Groups. </p>
+                         
+                              <ul type="disc">
+                                   <li><b><h1>STEP BY STEP REGISTRATION PROCESS:</h1></b>
+                                     <ul type="Square">
+                                        <li>
+                                            <b>Step1:</b><br> Register into Vclubzz website.
+                                        </li>
+                                        <li>
+                                             <b>Step2:</b><br> Sign in into Vclubzz website.
+                                        </li>
+                                        <li>
+                                             <b>Step3:</b><br>Choose your desired club to join
+                                        </li>
+                                        <li>
+                                             <b>Step4:</b><br>Know clearly about that particular club.
+                                        </li>
+                                        <li>
+                                             <b>Step5:</b><br> Know about their events.
+                                        </li>
+                                        <li>
+                                             <b>Step6:</b><br>Fill in your details in registration form.
+                                        </li>
+                                        <li>
+                                             <b>Step7:</b><br>Click on Register.
+                                        </li>
+                                        <li>
+                                             <b>Step8:</b><br>Pay the club fee.
+                                        </li>
+                                        <li>
+                                             <b>Step9:</b><br>Post successful registration join the whatsapp group of the VClubzz and Club which you have joined
+                                        </li>
+                                     </ul>  
+                                   </li>
+                                   
+                                      
+                              </ul>
+                              <p>Registration forms should be submitted each year with updated officer names, membership count, etc… In addition, any changes to the organization’s constitution or local charter must be submitted through the procedures for registration. Constitutions are kept on file in the Office of Campus Life and must be updated annually.</p>
+                              <div class="blog-social-share">
+                                   <h4>Share this article</h4>
+                                   <a href="https://www.facebook.com/templatemo" class="btn btn-primary"><i class="fa fa-facebook"></i>facebook</a>
+                                   <a href="#" class="btn btn-success"><i class="fa fa-twitter"></i>twitter</a>
+                                   <a href="#" class="btn btn-danger"><i class="fa fa-google-plus"></i>google plus</a>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-5 col-sm-12">
+                         <div class="footer-thumb footer-info"> 
+                              <h2>VClubzz Company</h2>
+                              <p>Eating Organic isn't a trend. It's return to tradition!!!</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Company</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">About Us</a></li>
+                                   <li><a href="#">Join our team</a></li>
+                                   <li><a href="#">Read Blog</a></li>
+                                   <li><a href="#">Press</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Services</h2>
+                              <ul class="footer-link">
+                                   <li><a href="#">Pricing</a></li>
+                                   <li><a href="#">Documentation</a></li>
+                                   <li><a href="#">Support</a></li>
+                              </ul>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4"> 
+                         <div class="footer-thumb"> 
+                              <h2>Find us</h2>
+                              <p>Yamnampet, Ghatkesar,<br>Hyderabad, Telangana 501301</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="footer-bottom">
+                              <div class="col-md-6 col-sm-5">
+                                   <div class="copyright-text"> 
+                                        <p>Copyright &copy; 2022 Vclubzz Company</p>
+                                   </div>
+                              </div>
+                              <div class="col-md-6 col-sm-7">
+                                   <div class="phone-contact"> 
+                                        <p>Call us <span>(+91) 9553525905</span></p>
+                                   </div>
+                                   <ul class="social-icon">
+                                        <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+     <!-- MODAL -->
+    
+     
+     <section class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+               <div class="modal-content modal-popup">
+                    
+
+                    <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                         </button>
+                    </div>
+
+                    <div class="modal-body">
+                         <div class="container-fluid">
+                              <div class="row">
+
+                                   <div class="col-md-12 col-sm-12">
+                                        <div class="modal-title">
+                                             <h2>Sreenidhi-clubs</h2>
+                                        </div>
+
+                                        <!-- NAV TABS -->
+                                        <ul class="nav nav-tabs" role="tablist">
+                                             <li class="active"><a href="#sign_up" aria-controls="sign_up" role="tab" data-toggle="tab">Create an account</a></li>
+                                             <li><a href="#sign_in" aria-controls="sign_in" role="tab" data-toggle="tab">Sign In</a></li>
+                                        </ul>
+
+                                        <!-- TAB PANES -->
+                                        <div class="tab-content">
+                                             <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
+                                                  <form action="#" method="post">
+                                                       <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                                       
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                  </form>
+                                             </div>
+
+                                             <div role="tabpanel" class="tab-pane fade in" id="sign_in">
+                                                  <form action="#" method="post">
+                                                       <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                                       <input type="password" class="form-control" name="password" placeholder="Password" required>
+                                                       <input type="submit" class="form-control" name="submit" value="Submit Button">
+                                                       <a href="https://www.facebook.com/templatemo">Forgot your password?</a>
+                                                  </form>
+                                             </div>
+                                        </div>
+                                   </div>
+
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <!-- SCRIPTS -->
+     <script src="jquery.js"></script>
+     <script src="bootstrap.min.js"></script>
+     <script src="jquery.stellar.min.js"></script>
+     <script src="jquery.magnific-popup.min.js"></script>
+     <script src="smoothscroll.js"></script>
+     <script src="custom.js"></script>
+
+</body>
+</html>
